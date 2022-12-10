@@ -17,6 +17,7 @@
     "remoteUser": "sail",
     "initializeCommand": "cp .env.example .env",
     // "postCreateCommand": "chown -R 1000:1000 /workspaces/sail-codespaces"
+    "postCreateCommand": "composer install && php artisan key:generate && php artisan migrate"
     // "forwardPorts": [],
     // "runServices": [],
     // "shutdownAction": "none",

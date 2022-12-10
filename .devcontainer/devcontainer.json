@@ -5,7 +5,7 @@
         "../docker-compose.yml"
     ],
     "service": "laravel.test",
-    "workspaceFolder": "/var/www/html",
+    "workspaceFolder": "/workspaces/sail-codespaces",
     "settings": {},
     "extensions": [
         // "mikestead.dotenv",

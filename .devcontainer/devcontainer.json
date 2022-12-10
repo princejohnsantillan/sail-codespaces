@@ -5,7 +5,7 @@
         "../docker-compose.yml"
     ],
     "service": "app",
-    "workspaceFolder": "/var/www/html",
+    "workspaceFolder": "/workspaces/sail-codespaces",
     "settings": {},
     "extensions": [
         // "mikestead.dotenv",
@@ -16,7 +16,7 @@
     ],
     "remoteUser": "sail",
     "initializeCommand": "cp .env.example .env",
-    "postCreateCommand": "chown -R 1000:1000 /var/www/html"
+    // "postCreateCommand": "chown -R 1000:1000 /workspaces/sail-codespaces"
     // "forwardPorts": [],
     // "runServices": [],
     // "shutdownAction": "none",
